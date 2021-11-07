@@ -1,12 +1,14 @@
-﻿using System;
+using System;
 
-namespace Liczydelko
+namespace Liczydelko_v3
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        [STAThread]
+        static void Main()
         {
-            Console.WriteLine("To moj projekt Liczydelko");
+            using (var game = new Game1())
+                game.Run();
         }
     }
 }
