@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Liczydelko_v3.classgraj">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>classgraj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Liczydelko_v3.Game1">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Liczydelko_v3.Game1.CurrentScene" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Game1.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACQAgg1hGSkAIwGABAiQIMgAAAgAAEACoIBkpDFAEQQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,238 @@
+\hypertarget{class_liczydelko__v3_1_1_game1}{}\doxysection{Liczydelko\+\_\+v3.\+Game1 Class Reference}
+\label{class_liczydelko__v3_1_1_game1}\index{Liczydelko\_v3.Game1@{Liczydelko\_v3.Game1}}
+
+
+Glowna klasa gry, ktora odpowaida za poszczegolne sceny tzn co i kiedy i jak ma byc rysowane.  
+
+
+Inheritance diagram for Liczydelko\+\_\+v3.\+Game1\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.111111cm]{class_liczydelko__v3_1_1_game1}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_ab34fe4bff0631e6d54774b8783f5d3a2}\label{class_liczydelko__v3_1_1_game1_ab34fe4bff0631e6d54774b8783f5d3a2}} 
+enum \mbox{\hyperlink{class_liczydelko__v3_1_1_game1_ab34fe4bff0631e6d54774b8783f5d3a2}{Current\+Scene}} \{ \newline
+{\bfseries Menu}
+, {\bfseries Graj}
+, {\bfseries Opis}
+, {\bfseries szsekund}
+, \newline
+{\bfseries ztncz}
+, {\bfseries Ranking}
+, {\bfseries Ranking\+Ztncz}
+, {\bfseries Ranking\+Szsekund}
+ \}
+\begin{DoxyCompactList}\small\item\em podzial gry na sceny \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_aa96f5b421188d36d98627f8a28315050}\label{class_liczydelko__v3_1_1_game1_aa96f5b421188d36d98627f8a28315050}} 
+{\bfseries Game1} ()
+\begin{DoxyCompactList}\small\item\em ostatni indeks listy, w celu wyswietlania rankingu zrob to na czas \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a0777845056311c731879e1903a2d3e6d}\label{class_liczydelko__v3_1_1_game1_a0777845056311c731879e1903a2d3e6d}} 
+void {\bfseries Update\+Graj} ()
+\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a1ef48de8648ccb55e0e5be80c62dc9dd}\label{class_liczydelko__v3_1_1_game1_a1ef48de8648ccb55e0e5be80c62dc9dd}} 
+void {\bfseries Draw\+Graj} ()
+\begin{DoxyCompactList}\small\item\em Rysuje scene po kliknieciu GRAJ. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a6c1e5341c9f5ce7053c0f4659f295200}\label{class_liczydelko__v3_1_1_game1_a6c1e5341c9f5ce7053c0f4659f295200}} 
+void {\bfseries Update\+Menu} ()
+\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a4e85a4a85b17f032b38a9c675fc2305c}\label{class_liczydelko__v3_1_1_game1_a4e85a4a85b17f032b38a9c675fc2305c}} 
+void {\bfseries Draw\+Menu} ()
+\begin{DoxyCompactList}\small\item\em Rysuje scene po kliknieciu w jakikolwiek przycisk MENU. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a27db6eee0f5672c9637b806c8c7be572}\label{class_liczydelko__v3_1_1_game1_a27db6eee0f5672c9637b806c8c7be572}} 
+void {\bfseries Update\+Opis} ()
+\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a8f4c6226d039cdc1d5db9081ae649906}\label{class_liczydelko__v3_1_1_game1_a8f4c6226d039cdc1d5db9081ae649906}} 
+void {\bfseries Draw\+Opis} ()
+\begin{DoxyCompactList}\small\item\em Metoda, ktora wyswietla scene opis, tzn opisuje gre. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_aa4615391a970f39cc2f3d96bb4cf8cd9}\label{class_liczydelko__v3_1_1_game1_aa4615391a970f39cc2f3d96bb4cf8cd9}} 
+void {\bfseries Update\+Ranking} ()
+\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a4519988f978fea8380fce86c2d0794c9}\label{class_liczydelko__v3_1_1_game1_a4519988f978fea8380fce86c2d0794c9}} 
+void {\bfseries Draw\+Ranking} ()
+\begin{DoxyCompactList}\small\item\em Metoda, ktora pokazuje ranking. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a6b7708605929378719dc0863e2faf5a9}\label{class_liczydelko__v3_1_1_game1_a6b7708605929378719dc0863e2faf5a9}} 
+void {\bfseries Updateszsekund} ()
+\item 
+void \mbox{\hyperlink{class_liczydelko__v3_1_1_game1_a05151895fb59cd4b1eccc809aa3a631b}{Drawszsekund}} ()
+\begin{DoxyCompactList}\small\item\em wszystko odpowiedzialne za rozgrywke gry 60 sekund \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a4c93da3fddbf57bd7e5a2d3e41ecd55d}\label{class_liczydelko__v3_1_1_game1_a4c93da3fddbf57bd7e5a2d3e41ecd55d}} 
+void {\bfseries Updateztncz} ()
+\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a6c1c57f8688e9460dee213af086ca76c}\label{class_liczydelko__v3_1_1_game1_a6c1c57f8688e9460dee213af086ca76c}} 
+void {\bfseries Drawztncz} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a218d0a0964b7580b916bfce855f58c79}\label{class_liczydelko__v3_1_1_game1_a218d0a0964b7580b916bfce855f58c79}} 
+Mouse\+State {\bfseries mouse\+State}
+\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_afde0cce6ebb0c5193784197b76854067}\label{class_liczydelko__v3_1_1_game1_afde0cce6ebb0c5193784197b76854067}} 
+Mouse\+State {\bfseries last\+Mouse\+State}
+\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_af4f4dfa3141bf3e818f99c4f8791ac22}\label{class_liczydelko__v3_1_1_game1_af4f4dfa3141bf3e818f99c4f8791ac22}} 
+Rectangle {\bfseries Cursor}
+\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_ab39f5437b395cc35c9787d450ba1e58d}\label{class_liczydelko__v3_1_1_game1_ab39f5437b395cc35c9787d450ba1e58d}} 
+List$<$ double $>$ {\bfseries ranking\+\_\+szsekund} = new List$<$double$>$()
+\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a5f9351af85267980b90ba0dab7e4d52c}\label{class_liczydelko__v3_1_1_game1_a5f9351af85267980b90ba0dab7e4d52c}} 
+List$<$ double $>$ {\bfseries ranking\+\_\+ztncz} = new List$<$double$>$()
+\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a68c79db5ba112ebe528fa57f38afc952}\label{class_liczydelko__v3_1_1_game1_a68c79db5ba112ebe528fa57f38afc952}} 
+List$<$ string $>$ {\bfseries data\+\_\+szsekund} = new List$<$String$>$()
+\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a5a03ee574f333dbf84ae642ffaef790c}\label{class_liczydelko__v3_1_1_game1_a5a03ee574f333dbf84ae642ffaef790c}} 
+List$<$ string $>$ {\bfseries data\+\_\+ztncz} = new List$<$String$>$()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_liczydelko__v3_1_1_game1_aa82d4f6f5b842a069deb5a941b4a27e9}{Initialize}} ()
+\begin{DoxyCompactList}\small\item\em w tej metodzie odbywa sie odczyt z pliku \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a65686f8e6944b72f0bad6a7b4a0a704c}\label{class_liczydelko__v3_1_1_game1_a65686f8e6944b72f0bad6a7b4a0a704c}} 
+override void {\bfseries Load\+Content} ()
+\begin{DoxyCompactList}\small\item\em metoda odpowiedzialna za zaldaowanie tekstur \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_af0e78c78394a72b20e598dcac560a469}\label{class_liczydelko__v3_1_1_game1_af0e78c78394a72b20e598dcac560a469}} 
+override void {\bfseries Update} (Game\+Time game\+Time)
+\begin{DoxyCompactList}\small\item\em metoda odpowiedzialna za \char`\"{}aktualizacje\char`\"{} scen jak i pozycje/rozmiar przyciskow \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a21282f35bca305996a3cd935e3e23942}\label{class_liczydelko__v3_1_1_game1_a21282f35bca305996a3cd935e3e23942}} 
+override void {\bfseries Draw} (Game\+Time game\+Time)
+\begin{DoxyCompactList}\small\item\em metoda odpowiedzialna za pokazywanie poszczegolnych scen \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a6605273a90a026da261745fa5cc2a22e}\label{class_liczydelko__v3_1_1_game1_a6605273a90a026da261745fa5cc2a22e}} 
+static Date\+Time {\bfseries Now}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Glowna klasa gry, ktora odpowaida za poszczegolne sceny tzn co i kiedy i jak ma byc rysowane. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_a05151895fb59cd4b1eccc809aa3a631b}\label{class_liczydelko__v3_1_1_game1_a05151895fb59cd4b1eccc809aa3a631b}} 
+\index{Liczydelko\_v3.Game1@{Liczydelko\_v3.Game1}!Drawszsekund@{Drawszsekund}}
+\index{Drawszsekund@{Drawszsekund}!Liczydelko\_v3.Game1@{Liczydelko\_v3.Game1}}
+\doxysubsubsection{\texorpdfstring{Drawszsekund()}{Drawszsekund()}}
+{\footnotesize\ttfamily void Liczydelko\+\_\+v3.\+Game1.\+Drawszsekund (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+wszystko odpowiedzialne za rozgrywke gry 60 sekund 
+
+{\ttfamily  
+\begin{DoxyCode}{0}
+\DoxyCodeLine{      \textcolor{keywordflow}{if} (time > 3600)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{}
+\DoxyCodeLine{    \textcolor{keywordtype}{string}[] dorankingustr = \{ \textcolor{stringliteral}{"{}"{}} \};}
+\DoxyCodeLine{    \_spriteBatch.DrawString(font, \textcolor{stringliteral}{"{}KONIEC CZASU TWOJ WYNIK TO \(\backslash\)n NIEPOPRAWNE ODPOWIEDZI :  "{}} + niepoprawne + \textcolor{stringliteral}{"{}\(\backslash\)n POPRAWNE ODPOWIEDZI : "{}} + poprawne, \textcolor{keyword}{new} Vector2(480, 50), Color.Red);}
+\DoxyCodeLine{    \textcolor{keywordflow}{if} (temp == 0)}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        \textcolor{keywordflow}{if} (niepoprawne > 0)}
+\DoxyCodeLine{        \{}
+\DoxyCodeLine{            dorankingu = (double)(poprawne / niepoprawne); \textcolor{keywordflow}{do} rankingu zostaja zapisane wartosci \textcolor{keywordflow}{do} 3 miejsca po przecinku}
+\DoxyCodeLine{        \}}
+\DoxyCodeLine{        \textcolor{keywordflow}{if} (niepoprawne == 0)}
+\DoxyCodeLine{        \{}
+\DoxyCodeLine{            dorankingu = poprawne;}
+\DoxyCodeLine{        \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{        dorankingustr[0] = dorankingu.ToString(\textcolor{stringliteral}{"{}G3"{}}); przyblizenie \textcolor{keywordflow}{do} 3 miejsc po przecinku}
+\DoxyCodeLine{      }
+\DoxyCodeLine{        ranking\_szsekund.Add(dorankingu);}
+\DoxyCodeLine{        data\_szsekund.Add(localDate.ToString());\textcolor{comment}{//data}}
+\DoxyCodeLine{        File.AppendAllLines(\textcolor{stringliteral}{"{}Rankingszsekund.txt"{}}, dorankingustr); zapis \textcolor{keywordflow}{do} pliku}
+\DoxyCodeLine{        temp++;\textcolor{comment}{// zeby if sie wykonal tylko raz, bo time>3600 caly czas leci }}
+\DoxyCodeLine{        lastindex = 0;}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{  \textcolor{keywordflow}{if} (c.g1\_glick(buttonA) == \textcolor{keyword}{true})}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    soundclickInstance.Play(); Odtworzenie dzwieku klikniecia}
+\DoxyCodeLine{    \textcolor{keywordflow}{if} (wynik[0] == wynik[which\_button])}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        poprawne++;}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{    \textcolor{keywordflow}{else} niepoprawne++;}
+\DoxyCodeLine{}
+\DoxyCodeLine{    d.count++;}
+\DoxyCodeLine{    endfor = 1; ponowne losowanie}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ }\mbox{\Hypertarget{class_liczydelko__v3_1_1_game1_aa82d4f6f5b842a069deb5a941b4a27e9}\label{class_liczydelko__v3_1_1_game1_aa82d4f6f5b842a069deb5a941b4a27e9}} 
+\index{Liczydelko\_v3.Game1@{Liczydelko\_v3.Game1}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!Liczydelko\_v3.Game1@{Liczydelko\_v3.Game1}}
+\doxysubsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily override void Liczydelko\+\_\+v3.\+Game1.\+Initialize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+w tej metodzie odbywa sie odczyt z pliku 
+
+{\ttfamily  
+\begin{DoxyCode}{0}
+\DoxyCodeLine{ \textcolor{keywordtype}{string}[] lines;<br/>}
+\DoxyCodeLine{\textcolor{keywordtype}{string}[] lines\_ztncz;<br/>}
+\DoxyCodeLine{\textcolor{keywordflow}{if} (File.Exists(\textcolor{stringliteral}{"{}Rankingszsekund.txt"{}}) == \textcolor{keyword}{true}) \textcolor{comment}{//jesli jest plik to zapisuje do rankingu szsekund }}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    lines = System.IO.File.ReadAllLines(\textcolor{stringliteral}{@"{}Rankingszsekund.txt"{}});}
+\DoxyCodeLine{    \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{string} line \textcolor{keywordflow}{in} lines)\textcolor{comment}{// odczyt z pliku i zapis do zmienej rankingu}}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{        ranking\_szsekund.Add(Convert.ToDouble(line));}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{\textcolor{keywordflow}{if} (File.Exists(\textcolor{stringliteral}{"{}Rankingszsekund.txt"{}}) == \textcolor{keyword}{false})}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    File.WriteAllText(\textcolor{stringliteral}{"{}Rankingszsekund.txt"{}}, \textcolor{stringliteral}{"{}0"{}}); \textcolor{comment}{// jesli nie ma pliku z rankigiem to tworzy plik z 0, zeby poza tablice nie wyszedl}}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{\textcolor{keywordflow}{if} (File.Exists(\textcolor{stringliteral}{"{}Rankingztncz.txt"{}}) == \textcolor{keyword}{true})}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    lines\_ztncz = System.IO.File.ReadAllLines(\textcolor{stringliteral}{@"{}Rankingztncz.txt"{}});}
+\DoxyCodeLine{    \textcolor{keywordflow}{foreach} (\textcolor{keywordtype}{string} line \textcolor{keywordflow}{in} lines\_ztncz) \textcolor{comment}{// odczyt z pliku i zapis do zmienej rankingu}}
+\DoxyCodeLine{    \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{        ranking\_ztncz.Add(Convert.ToDouble(line));}
+\DoxyCodeLine{    \}}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{\textcolor{keywordflow}{if} (File.Exists(\textcolor{stringliteral}{"{}Rankingztncz.txt"{}}) == \textcolor{keyword}{false})}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    File.WriteAllText(\textcolor{stringliteral}{"{}Rankingztncz.txt"{}}, \textcolor{stringliteral}{"{}0"{}});}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{IsMouseVisible = \textcolor{keyword}{true};}
+\DoxyCodeLine{Window.AllowUserResizing = \textcolor{keyword}{true};}
+\DoxyCodeLine{File.WriteAllText(\textcolor{stringliteral}{"{}.txt"{}}, \textcolor{stringliteral}{"{}Test"{}}); \textcolor{comment}{//test}}
+\DoxyCodeLine{\textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < 11; i++) \textcolor{comment}{//dodaje 0 zeby nie wywalil sie poza tablice jak ktos kliknie ranking}}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    ranking\_szsekund.Add(0);}
+\DoxyCodeLine{    ranking\_ztncz.Add(0);}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ }
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Game1.\+cs\item 
+szsekund.\+cs\item 
+Graj\+Scene.\+cs\item 
+Menu\+Scene.\+cs\item 
+opisclass.\+cs\item 
+rankingclass.\+cs\item 
+ztnczclass.\+cs\end{DoxyCompactItemize}

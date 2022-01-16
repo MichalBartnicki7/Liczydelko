@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/MichalB/source/repos/Liczydelko_v3/Liczydelko_v3/Content/File.spritefont</SourceFile>
+  <SourceTime>2021-12-12T18:12:56.2003999+01:00</SourceTime>
+  <DestFile>C:/Users/MichalB/source/repos/Liczydelko_v3/Liczydelko_v3/Content/bin/Windows/Content/File.xnb</DestFile>
+  <DestTime>2022-01-15T17:15:11.0634424+01:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2020-08-10T18:17:54+02:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
